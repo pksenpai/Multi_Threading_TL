@@ -3,7 +3,7 @@ from time import sleep, perf_counter
 from threading import Thread, current_thread, enumerate
 
 
-"""\_____[current_thread]_____/"""  
+"""\_____[current_thread & enumerate]_____/"""  
 start = perf_counter()
 
 def show(name):
@@ -35,7 +35,6 @@ t2.start()
 print(current_thread()) # MainThread
 
 """ wait to finish thread """
-# commented for test daemon
 t1.join()
 t2.join()
 
