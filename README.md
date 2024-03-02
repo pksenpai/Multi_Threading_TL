@@ -1,2 +1,2 @@
-<h3>Multi Threading(Python/tread)</h3>
+<h3>Multi Threading(Python/thread)</h3>
 This is a personal repository for self study by Test & Learn (TL) ...
