@@ -3,7 +3,7 @@ from time import sleep, perf_counter
 from threading import Thread, current_thread, enumerate
 
 
-"""\_____[current_thread & enumerate]_____/"""  
+"""\_____[current_thread & enumerate]_____/"""
 start = perf_counter()
 
 def show(name):
